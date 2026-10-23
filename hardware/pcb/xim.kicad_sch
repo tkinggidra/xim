@@ -6452,6 +6452,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "xim:SY6280AAC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -5.08 -5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0.254 6.096 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SY6280AAC_0_1"
+				(rectangle
+					(start -6.35 3.81)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SY6280AAC_1_1"
+				(pin power_out line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -6.35 90)
+					(length 2.54)
+					(name "ISET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "QSPI STORAGE"
 		(exclude_from_sim no)
@@ -6573,6 +6739,12 @@
 		(uuid "4243a3c2-a9c6-43c2-8377-02f4587c36b4")
 	)
 	(junction
+		(at 157.48 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44a10473-d348-4696-9557-a7e492a54a3e")
+	)
+	(junction
 		(at 33.02 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6637,6 +6809,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb70a6e9-e27d-4dbb-a936-56ba3eb87bc8")
+	)
+	(junction
+		(at 208.28 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f617911a-eaf5-40f4-84a9-b4fb36237426")
 	)
 	(junction
 		(at 45.72 187.96)
@@ -6821,6 +6999,16 @@
 			(type solid)
 		)
 		(uuid "1bc4a6f8-51b5-4455-abf2-db4f0ae4a591")
+	)
+	(wire
+		(pts
+			(xy 229.87 251.46) (xy 229.87 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbd6476-bed8-4d55-a5ec-5a64a7e29a03")
 	)
 	(wire
 		(pts
@@ -7094,6 +7282,26 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 242.57) (xy 246.38 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59cafd1d-7a59-400e-92b3-fec19c198d15")
+	)
+	(wire
+		(pts
+			(xy 233.68 264.16) (xy 233.68 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b06781c-63aa-4140-9831-adbfa04d233b")
+	)
+	(wire
+		(pts
 			(xy 86.36 66.04) (xy 86.36 68.58)
 		)
 		(stroke
@@ -7234,6 +7442,26 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 242.57) (xy 220.98 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4bae64-e4b4-401f-b947-73a6d0967b0d")
+	)
+	(wire
+		(pts
+			(xy 233.68 251.46) (xy 233.68 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa0fb7b-698e-48c5-b75a-1550275c43ee")
+	)
+	(wire
+		(pts
 			(xy 38.1 226.06) (xy 55.88 226.06)
 		)
 		(stroke
@@ -7364,6 +7592,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 242.57) (xy 208.28 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd51db9-129d-4957-97ee-71128c4a4883")
+	)
+	(wire
+		(pts
 			(xy 251.46 104.14) (xy 269.24 104.14)
 		)
 		(stroke
@@ -7481,6 +7719,16 @@
 			(type solid)
 		)
 		(uuid "aaf5d985-a2b2-49cd-8474-71f2ea2ae6ea")
+	)
+	(wire
+		(pts
+			(xy 208.28 252.73) (xy 208.28 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abec7ef6-6e9c-4cb6-9b8c-a989ce5e9f10")
 	)
 	(wire
 		(pts
@@ -7631,6 +7879,16 @@
 			(type solid)
 		)
 		(uuid "c8694798-ae3b-45fd-9634-63d1caa3cb2f")
+	)
+	(wire
+		(pts
+			(xy 220.98 247.65) (xy 213.36 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9173528-74f1-48a8-9556-a769364c23f8")
 	)
 	(wire
 		(pts
@@ -8309,6 +8567,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "5V_EN"
+		(shape bidirectional)
+		(at 213.36 247.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "329343fd-6d11-4a9e-9ba0-5bd758c851c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206 247.65 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -9465,6 +9747,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:CAP_CERAMIC_0402NO")
+		(at 208.28 247.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00078e8d-fded-4005-85c7-8d1e52e3e49f")
+		(property "Reference" "C29"
+			(at 210.57 248.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 205.98 248.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit Feather RP2040 USB Host-import-fps:_0402NO"
+			(at 208.28 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fad87c7-a373-484a-aca8-a6bb019d475c")
+		)
+		(pin "2"
+			(uuid "74991f0c-5353-4509-bf83-277c54540909")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
 		(at 91.44 104.14 0)
 		(unit 1)
@@ -10010,6 +10371,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:RESISTOR_0402NO")
+		(at 233.68 259.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09e1997c-f501-4684-811e-c43836aea136")
+		(property "Reference" "R21"
+			(at 236.22 259.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "6.8K"
+			(at 233.68 259.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 0.8636)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit Feather RP2040 USB Host-import-fps:_0402NO"
+			(at 233.68 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f23b6fb7-3acc-4457-892d-a039d45fb7ea")
+		)
+		(pin "1"
+			(uuid "2922ad7a-618a-4f47-8424-ce7371893a2c")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:SPIFLASH_8PIN_4X4")
 		(at 284.48 109.22 0)
 		(unit 1)
@@ -10347,6 +10789,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
+		(at 233.68 269.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "140c9343-8292-424b-9615-d1a2788fcf26")
+		(property "Reference" "#U$204"
+			(at 233.68 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.156 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3ab35a6-041d-4f7f-ae18-1afe1cfd7d38")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 114.3 93.98 0)
 		(unit 1)
@@ -10578,6 +11098,83 @@
 			(project "xim"
 				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
 					(reference "#U$104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 157.48 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "165c394a-9b69-47ce-9292-9af736a47ca1")
+		(property "Reference" "#FLG07"
+			(at 157.48 198.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 157.48 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 157.48 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a23b8351-b175-4b8e-9a57-11837d91c217")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -10983,6 +11580,95 @@
 			(project "xim"
 				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
 					(reference "#+3V11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xim:SY6280AAC")
+		(at 229.87 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27511a48-dc4b-4dcc-81c0-046a2cdfd4e2")
+		(property "Reference" "U3"
+			(at 229.87 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SY6280AAC"
+			(at 229.87 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 230.124 239.014 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://olimex.com/Products/Components/IC/SY6280/resources/SY6280AAC.PDF"
+			(at 229.87 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB load switch, adjustable current limit"
+			(at 229.87 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "229301ff-352b-4ef9-a48a-59044dde23ba")
+		)
+		(pin "1"
+			(uuid "e805579a-aa65-4363-a507-085b2dd0158f")
+		)
+		(pin "4"
+			(uuid "8452d08c-b7b8-4e2d-88b9-559fc6d36758")
+		)
+		(pin "3"
+			(uuid "228718a5-c33e-4be0-95be-1cd50eb8aabe")
+		)
+		(pin "2"
+			(uuid "d89dc429-31f5-4d0a-987b-29f56fa685db")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13502,6 +14188,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
+		(at 208.28 257.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "559f91eb-d0fc-4965-9b61-f5c9ed20532c")
+		(property "Reference" "#U$202"
+			(at 208.28 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 206.756 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04378920-9010-4968-ad63-520f246a926f")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:1.2V")
 		(at 48.26 170.18 0)
 		(unit 1)
@@ -14372,6 +15136,84 @@
 			(project "xim"
 				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
 					(reference "#GND15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:VBUS")
+		(at 208.28 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f1568e4-e59e-4609-bd3c-a5be2bc15068")
+		(property "Reference" "#U$201"
+			(at 208.28 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 206.756 239.014 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "488a5496-945e-4048-868a-f531576b2ab6")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$201")
 					(unit 1)
 				)
 			)
@@ -15404,6 +16246,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:5.0V")
+		(at 246.38 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d85eabe-f84b-478c-ad25-38e5f9df3943")
+		(property "Reference" "#U$200"
+			(at 246.38 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.0V"
+			(at 244.856 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb219c68-d7c2-4e6a-9e9c-a9abc2d8f2ab")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:CAP_CERAMIC_0402NO")
 		(at 76.2 99.06 0)
 		(unit 1)
@@ -15904,6 +16824,84 @@
 			(project "xim"
 				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
+		(at 229.87 257.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "953e7ace-9c82-479c-a2c4-04ac4ebaebe7")
+		(property "Reference" "#U$203"
+			(at 229.87 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.346 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75883ba8-558a-402a-88c2-4a655c26b2ff")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$203")
 					(unit 1)
 				)
 			)

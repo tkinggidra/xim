@@ -5,6 +5,8 @@ fp-info-cache
 _autosave-*
 *.lck
 ~*.lck
+.history/
+*.bak
 
 # Firmware builds
 .pio/
