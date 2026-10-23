@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Adafruit Feather RP2040 USB Host-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/Adafruit Feather RP2040 USB Host-eagle-import.kicad_sym") (options "") (descr ""))
+	(lib (name "xim") (type "KiCad") (uri "${KIPRJMOD}/../libraries/xim.kicad_sym") (options "") (descr "Custom parts for the xim board"))
+)
