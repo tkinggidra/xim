@@ -1,0 +1,23 @@
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+_autosave-*
+*.lck
+~*.lck
+
+# Firmware builds
+.pio/
+.vscode/*
+!.vscode/extensions.json
+build/
+
+# Generated outputs (published in GitHub Releases instead)
+*.uf2
+hardware/**/production/
+housing/**/*.stl
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
