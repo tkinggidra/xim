@@ -6452,14 +6452,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "xim:SY6280AAC"
+		(symbol "xim:FE1.1s"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -5.08 -5.334 0)
+				(at 0 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6468,8 +6468,588 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "FE1.1s"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SSOP-28_3.9x9.9mm_P0.635mm"
+				(at 0 24.384 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB 2.0 4-port hub controller"
+				(at 0.254 22.098 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FE1.1s_0_1"
+				(rectangle
+					(start -8.89 19.05)
+					(end 8.89 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FE1.1s_1_1"
+				(pin power_in line
+					(at -11.43 -12.7 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 -10.16 0)
+					(length 2.54)
+					(name "XOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "XIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "DM4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "DP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "DM3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "DP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 5.08 180)
+					(length 2.54)
+					(name "DM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 7.62 180)
+					(length 2.54)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 10.16 180)
+					(length 2.54)
+					(name "DM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 12.7 180)
+					(length 2.54)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 10.16 0)
+					(length 2.54)
+					(name "VD18O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 12.7 0)
+					(length 2.54)
+					(name "VD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "REXT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 15.24 180)
+					(length 2.54)
+					(name "DMU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 17.78 180)
+					(length 2.54)
+					(name "DPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 5.08 0)
+					(length 2.54)
+					(name "XRSTJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "VBUSM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "BUSJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 17.78 0)
+					(length 2.54)
+					(name "VDD5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -11.43 15.24 0)
+					(length 2.54)
+					(name "VD33F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -12.7 180)
+					(length 2.54)
+					(name "DRV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -15.24 180)
+					(length 2.54)
+					(name "LED1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -17.78 180)
+					(length 2.54)
+					(name "LED2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 11.43 -7.62 180)
+					(length 2.54)
+					(name "PWRJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -10.16 180)
+					(length 2.54)
+					(name "OVCJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "TESTJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 7.62 0)
+					(length 2.54)
+					(name "VD18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "xim:SY6280AAC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SY6280AAC"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6739,12 +7319,6 @@
 		(uuid "4243a3c2-a9c6-43c2-8377-02f4587c36b4")
 	)
 	(junction
-		(at 157.48 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44a10473-d348-4696-9557-a7e492a54a3e")
-	)
-	(junction
 		(at 33.02 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6799,6 +7373,12 @@
 		(uuid "c0afd46a-368a-4aa7-a92a-f629c2fa317e")
 	)
 	(junction
+		(at 298.45 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d83d47de-9bff-46ee-a3cb-101378a28b8d")
+	)
+	(junction
 		(at 114.3 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6831,12 +7411,28 @@
 		(uuid "161eb633-6001-4bea-af87-eb8d8c33ce54")
 	)
 	(no_connect
+		(at 252.73 161.29)
+		(uuid "21198d8f-7df5-4295-a08a-51c3817f3e01")
+	)
+	(no_connect
 		(at 132.08 203.2)
 		(uuid "3cf60eb0-3ff7-4d0b-8e13-bbde5490684d")
 	)
 	(no_connect
 		(at 132.08 210.82)
 		(uuid "4a9a3db6-179b-4ff1-964a-64ea8448f994")
+	)
+	(no_connect
+		(at 325.12 220.98)
+		(uuid "4ca25941-8a08-4543-b37c-c8e5e06bc0b5")
+	)
+	(no_connect
+		(at 325.12 223.52)
+		(uuid "4ff9b68a-f69d-4a55-af92-85fe273572b3")
+	)
+	(no_connect
+		(at 252.73 171.45)
+		(uuid "540b9a4e-8072-47d3-8cc0-b7fe9d14308c")
 	)
 	(no_connect
 		(at 132.08 213.36)
@@ -6849,6 +7445,26 @@
 	(no_connect
 		(at 299.72 58.42)
 		(uuid "84555b31-0376-4dd9-9bc2-3d8c2e8d80e2")
+	)
+	(no_connect
+		(at 252.73 158.75)
+		(uuid "a96e98e8-d912-4483-b75a-5a6e52ba30f2")
+	)
+	(no_connect
+		(at 252.73 168.91)
+		(uuid "b1b2cfd6-cb41-44d1-b79f-246cfb199e68")
+	)
+	(no_connect
+		(at 252.73 163.83)
+		(uuid "d84f366c-dcc8-44bc-8efb-60ba84e5d5f5")
+	)
+	(no_connect
+		(at 252.73 173.99)
+		(uuid "dcaa9d36-ec88-4e7d-9c59-b3798c3c9f53")
+	)
+	(no_connect
+		(at 229.87 158.75)
+		(uuid "ecfc3b36-d120-4ad3-a6a1-98cfa577348d")
 	)
 	(wire
 		(pts
@@ -6869,6 +7485,26 @@
 			(type solid)
 		)
 		(uuid "0135375f-e976-4ea0-87e2-7f738359bff4")
+	)
+	(wire
+		(pts
+			(xy 229.87 168.91) (xy 224.79 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088e4ce9-36f4-49b6-b4fb-27c88a08d845")
+	)
+	(wire
+		(pts
+			(xy 298.45 171.45) (xy 293.37 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd92b53-30a9-469f-a80b-84d62cc8d855")
 	)
 	(wire
 		(pts
@@ -6962,26 +7598,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 200.66) (xy 55.88 200.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "18938b7b-cda5-4cf6-8664-84dc98587450")
-	)
-	(wire
-		(pts
-			(xy 55.88 203.2) (xy 38.1 203.2)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "18f9d798-40e6-4ae0-9728-1345a1320918")
-	)
-	(wire
-		(pts
 			(xy 48.26 66.04) (xy 48.26 68.58)
 		)
 		(stroke
@@ -7032,7 +7648,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 208.28) (xy 144.78 208.28)
+			(xy 132.08 208.28) (xy 134.62 208.28)
 		)
 		(stroke
 			(width 0.1524)
@@ -7042,13 +7658,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 152.4) (xy 132.08 152.4)
+			(xy 298.45 146.05) (xy 293.37 146.05)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "217d270b-1020-4e5c-9c20-bbc1d46b7138")
+		(uuid "23e194e8-de17-4b67-8440-8ed46c39afee")
 	)
 	(wire
 		(pts
@@ -7082,7 +7698,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 200.66) (xy 139.7 200.66)
+			(xy 132.08 200.66) (xy 134.62 200.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -7120,6 +7736,16 @@
 		)
 		(uuid "36bc8970-f2f2-4cb0-b89e-afcf5f9c5d03")
 	)
+	(wire
+		(pts
+			(xy 157.48 198.12) (xy 162.56 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3746197b-ccb5-49a1-ad66-4b535ae35b18")
+	)
 	(polyline
 		(pts
 			(xy 401.32 76.2) (xy 325.12 76.2)
@@ -7142,13 +7768,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 160.02) (xy 139.7 160.02)
+			(xy 266.7 208.28) (xy 266.7 205.74)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "3e6017b9-a3a3-4995-ab47-d898bb66b6d2")
+		(uuid "3cc02220-8e40-4bd2-b3e2-75885ca4a2c4")
 	)
 	(wire
 		(pts
@@ -7162,13 +7788,53 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 187.96) (xy 139.7 187.96)
+			(xy 292.1 218.44) (xy 292.1 220.98)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "43177a38-59f9-42c1-a6f3-78926e7ef456")
+		(uuid "41bedd95-69ea-4045-a4e3-37fc90b9086f")
+	)
+	(wire
+		(pts
+			(xy 325.12 218.44) (xy 320.04 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4219e86e-a9e3-4361-bfa4-9053d97ae848")
+	)
+	(wire
+		(pts
+			(xy 229.87 140.97) (xy 224.79 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425ea865-d3a6-4590-b56f-67175b166340")
+	)
+	(wire
+		(pts
+			(xy 215.9 215.9) (xy 215.9 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f5c895-0853-4910-ae0c-5fcce540158a")
+	)
+	(wire
+		(pts
+			(xy 252.73 151.13) (xy 257.81 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4329c763-f62d-49fe-a39d-4435102e16bf")
 	)
 	(wire
 		(pts
@@ -7179,16 +7845,6 @@
 			(type solid)
 		)
 		(uuid "43b215b5-7e7d-4170-b9a7-86ef39c86161")
-	)
-	(wire
-		(pts
-			(xy 132.08 190.5) (xy 139.7 190.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "43e3d8fb-2648-4021-bd32-7491bc3f7de5")
 	)
 	(polyline
 		(pts
@@ -7202,13 +7858,43 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 157.48) (xy 139.7 157.48)
+			(xy 157.48 195.58) (xy 162.56 195.58)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "46e677a4-2f01-4f71-a389-b652d7599ae5")
+		(uuid "480ba97b-b310-4ead-830c-3eac438e7774")
+	)
+	(wire
+		(pts
+			(xy 229.87 151.13) (xy 224.79 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4887ac6a-97c5-4daf-9160-bbcb9057f65e")
+	)
+	(wire
+		(pts
+			(xy 203.2 208.28) (xy 203.2 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2d4310-60fe-421f-a921-507abe01c050")
+	)
+	(wire
+		(pts
+			(xy 252.73 166.37) (xy 257.81 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb05a1b-7169-46f5-a18c-a3a3d3c9e767")
 	)
 	(polyline
 		(pts
@@ -7222,7 +7908,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 223.52) (xy 147.32 223.52)
+			(xy 279.4 218.44) (xy 279.4 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f03091-d7e9-4437-b951-3cf893b0aa31")
+	)
+	(wire
+		(pts
+			(xy 132.08 223.52) (xy 137.16 223.52)
 		)
 		(stroke
 			(width 0.1524)
@@ -7232,7 +7928,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 205.74) (xy 144.78 205.74)
+			(xy 132.08 205.74) (xy 134.62 205.74)
 		)
 		(stroke
 			(width 0.1524)
@@ -7282,6 +7978,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 215.9) (xy 228.6 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591e25be-f2bd-41e8-937d-0e1102c1fe2a")
+	)
+	(wire
+		(pts
 			(xy 238.76 242.57) (xy 246.38 242.57)
 		)
 		(stroke
@@ -7322,13 +8028,33 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 220.98) (xy 147.32 220.98)
+			(xy 132.08 220.98) (xy 137.16 220.98)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "5d647c88-ed7a-4392-9c2e-f6dd315a4b34")
+	)
+	(wire
+		(pts
+			(xy 229.87 146.05) (xy 224.79 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea2bd50-a586-4fab-a67d-45d840fadf95")
+	)
+	(wire
+		(pts
+			(xy 229.87 161.29) (xy 224.79 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630d20e9-d563-4951-90fe-4bd3801434b3")
 	)
 	(polyline
 		(pts
@@ -7342,6 +8068,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 208.28) (xy 254 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63eb3264-92a4-4627-9abf-ff7753ff2052")
+	)
+	(wire
+		(pts
 			(xy 55.88 170.18) (xy 55.88 172.72)
 		)
 		(stroke
@@ -7352,23 +8088,33 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 154.94) (xy 139.7 154.94)
+			(xy 325.12 210.82) (xy 320.04 210.82)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "69d8c6cf-809a-40ed-a218-405672801bb4")
+		(uuid "6963f20b-d2fb-4d3d-b43c-c130cdfd8da3")
 	)
 	(wire
 		(pts
-			(xy 132.08 231.14) (xy 147.32 231.14)
+			(xy 252.73 156.21) (xy 257.81 156.21)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "6e795df8-db4c-4359-83ad-11e36a1f4887")
+		(uuid "69de2707-6f46-4c76-ba2c-0dda0fca378e")
+	)
+	(wire
+		(pts
+			(xy 229.87 143.51) (xy 224.79 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8f4e76-e331-4451-a9a6-0a3ba76c7be2")
 	)
 	(wire
 		(pts
@@ -7389,6 +8135,16 @@
 			(type solid)
 		)
 		(uuid "710fcb45-2e28-4f14-b91a-ebf6338d4bea")
+	)
+	(wire
+		(pts
+			(xy 190.5 208.28) (xy 190.5 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72409121-4c40-4bb6-8cd9-2ddb768e2bb2")
 	)
 	(wire
 		(pts
@@ -7422,13 +8178,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 198.12) (xy 38.1 198.12)
+			(xy 252.73 143.51) (xy 257.81 143.51)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "7965bedb-6e78-45d9-ab33-4324bb01be44")
+		(uuid "7757ab14-e790-4508-ba6c-9f86109f40be")
+	)
+	(wire
+		(pts
+			(xy 298.45 143.51) (xy 293.37 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7952891d-285f-40c6-b482-0da0f8ff7469")
 	)
 	(polyline
 		(pts
@@ -7439,6 +8205,16 @@
 			(type solid)
 		)
 		(uuid "7cbe0d2a-cde0-421f-9f56-3e17f92197ef")
+	)
+	(wire
+		(pts
+			(xy 190.5 215.9) (xy 190.5 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9cb617-a694-410a-ac83-81f3cb8dea1e")
 	)
 	(wire
 		(pts
@@ -7522,26 +8298,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 193.04) (xy 55.88 193.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8a653e0f-78e2-4ea5-9dd7-bedfa948c6ed")
-	)
-	(wire
-		(pts
-			(xy 132.08 177.8) (xy 139.7 177.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8c096a90-ceca-4105-891d-6e9f230c0ddf")
-	)
-	(wire
-		(pts
 			(xy 132.08 198.12) (xy 147.32 198.12)
 		)
 		(stroke
@@ -7549,6 +8305,16 @@
 			(type solid)
 		)
 		(uuid "8d8639dc-27a9-43ef-b0a6-5d1fda1251b9")
+	)
+	(wire
+		(pts
+			(xy 252.73 146.05) (xy 257.81 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e458253-2bd5-4140-91e6-31ac000593be")
 	)
 	(wire
 		(pts
@@ -7572,6 +8338,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 166.37) (xy 224.79 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f8a618-a124-499f-bf6f-b7e4f24bfcec")
+	)
+	(wire
+		(pts
 			(xy 165.1 99.06) (xy 175.26 99.06)
 		)
 		(stroke
@@ -7582,6 +8358,46 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 213.36) (xy 266.7 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934429cf-9ddd-43de-a621-7c58a074525e")
+	)
+	(wire
+		(pts
+			(xy 229.87 138.43) (xy 224.79 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93dff02d-8234-45f7-bb5e-500bb8000ba4")
+	)
+	(wire
+		(pts
+			(xy 252.73 148.59) (xy 257.81 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94bec52c-4f4c-4db1-92ca-7044b1ba0eee")
+	)
+	(wire
+		(pts
+			(xy 228.6 208.28) (xy 228.6 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f7b290-4833-473f-8724-b9b83e70cd83")
+	)
+	(wire
+		(pts
 			(xy 160.02 101.6) (xy 160.02 104.14)
 		)
 		(stroke
@@ -7589,6 +8405,36 @@
 			(type solid)
 		)
 		(uuid "95424469-8922-46b9-b559-93714fe50a11")
+	)
+	(wire
+		(pts
+			(xy 215.9 208.28) (xy 215.9 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967828a8-2ff3-467e-afe7-e95610b5cf5e")
+	)
+	(wire
+		(pts
+			(xy 252.73 140.97) (xy 257.81 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986eeb45-a0e3-4981-99de-3ca32a9d964f")
+	)
+	(wire
+		(pts
+			(xy 229.87 153.67) (xy 224.79 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99828b99-6535-43bb-99ec-092c252d508f")
 	)
 	(wire
 		(pts
@@ -7672,6 +8518,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 228.6) (xy 320.04 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2aa208f-0c2a-4e4f-bbe3-b553e0f2384e")
+	)
+	(wire
+		(pts
 			(xy 38.1 220.98) (xy 55.88 220.98)
 		)
 		(stroke
@@ -7722,6 +8578,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 168.91) (xy 293.37 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1d4b45-8363-4e72-b278-0ab3868c1457")
+	)
+	(wire
+		(pts
 			(xy 208.28 252.73) (xy 208.28 255.27)
 		)
 		(stroke
@@ -7739,6 +8605,16 @@
 			(type solid)
 		)
 		(uuid "adf7a77c-e5d8-4bce-a555-c9eda9604875")
+	)
+	(wire
+		(pts
+			(xy 325.12 215.9) (xy 320.04 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ac3484-c4b3-487b-96be-0a3ce41ee04e")
 	)
 	(wire
 		(pts
@@ -7762,13 +8638,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 149.86) (xy 139.7 149.86)
+			(xy 252.73 153.67) (xy 257.81 153.67)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "b23a9ac4-311c-4813-bcf6-3fba6f064bfe")
+		(uuid "b54adf17-252a-4b5a-b464-3297473e8894")
 	)
 	(wire
 		(pts
@@ -7792,16 +8668,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 172.72) (xy 139.7 172.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bc4a8f98-2a7d-4516-b6e5-6ae354eb8960")
-	)
-	(wire
-		(pts
 			(xy 246.38 93.98) (xy 246.38 96.52)
 		)
 		(stroke
@@ -7819,16 +8685,6 @@
 			(type solid)
 		)
 		(uuid "bf9e764c-64e1-4a12-85c6-d33e28480b82")
-	)
-	(wire
-		(pts
-			(xy 292.1 40.64) (xy 292.1 38.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c06363e1-6cbc-4114-82f5-ea04b63bd7fc")
 	)
 	(wire
 		(pts
@@ -7852,7 +8708,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 167.64) (xy 139.7 167.64)
+			(xy 132.08 167.64) (xy 134.62 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -7862,13 +8718,43 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 228.6) (xy 132.08 228.6)
+			(xy 229.87 148.59) (xy 224.79 148.59)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "c61ade29-f03f-4393-b94d-8f823a3da088")
+		(uuid "c4e4508f-9a77-46fc-89ea-c60f45ba49c9")
+	)
+	(wire
+		(pts
+			(xy 292.1 208.28) (xy 292.1 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57486f4-cf61-44b6-91c5-e9c2e70f3105")
+	)
+	(wire
+		(pts
+			(xy 241.3 218.44) (xy 241.3 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57e848b-a058-45b4-80b2-ccf7591958c8")
+	)
+	(wire
+		(pts
+			(xy 254 218.44) (xy 254 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8184441-33f8-4b53-8941-ad0d46a0694e")
 	)
 	(wire
 		(pts
@@ -7892,16 +8778,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 182.88) (xy 139.7 182.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ceb4a4ab-e5bc-48ff-a3b6-f18a8b00d20f")
-	)
-	(wire
-		(pts
 			(xy 45.72 182.88) (xy 43.18 182.88)
 		)
 		(stroke
@@ -7912,33 +8788,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 185.42) (xy 139.7 185.42)
+			(xy 229.87 156.21) (xy 224.79 156.21)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "d0ba450c-a7b7-41c6-a1e3-9a240318aa73")
-	)
-	(wire
-		(pts
-			(xy 132.08 165.1) (xy 139.7 165.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d16f0b50-000a-45d9-9f0f-1667303e61c3")
-	)
-	(wire
-		(pts
-			(xy 132.08 175.26) (xy 139.7 175.26)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d329d31f-d511-41d1-b750-cf5e93329975")
+		(uuid "d49a59b9-0af9-4222-a803-fa9c7c8601db")
 	)
 	(wire
 		(pts
@@ -7972,17 +8828,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 180.34) (xy 139.7 180.34)
+			(xy 325.12 208.28) (xy 320.04 208.28)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "d97c35a5-fc59-4e57-9a7b-5c4276ac123f")
+		(uuid "dbd4f666-11c2-4e7d-8249-5e64426146ee")
 	)
 	(wire
 		(pts
-			(xy 132.08 38.1) (xy 132.08 53.34)
+			(xy 132.08 48.26) (xy 132.08 53.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -8002,23 +8858,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 205.74) (xy 55.88 205.74)
+			(xy 298.45 166.37) (xy 293.37 166.37)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "e0eda4d5-e63c-4093-9657-19c062a5b6a7")
-	)
-	(wire
-		(pts
-			(xy 132.08 162.56) (xy 139.7 162.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e0ef2b8e-9dd3-4c6e-a21f-d5c3820d3965")
+		(uuid "dff07b97-ba35-4681-aeaa-dc1ec5c0e916")
 	)
 	(wire
 		(pts
@@ -8029,6 +8875,26 @@
 			(type solid)
 		)
 		(uuid "e25d8258-b667-446e-a64f-a308e935b467")
+	)
+	(wire
+		(pts
+			(xy 241.3 208.28) (xy 241.3 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d20d52-ba9c-4724-b62b-3535b74b79e1")
+	)
+	(wire
+		(pts
+			(xy 229.87 163.83) (xy 224.79 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d6c779-094f-4ccc-8693-b427bf1907b4")
 	)
 	(wire
 		(pts
@@ -8102,6 +8968,36 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 208.28) (xy 279.4 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb09a2f-9976-4772-82ae-9336a954c542")
+	)
+	(wire
+		(pts
+			(xy 203.2 215.9) (xy 203.2 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef03b6d-5013-4f30-85b2-fc0b2d592d8a")
+	)
+	(wire
+		(pts
+			(xy 298.45 140.97) (xy 293.37 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05a71c6-b91e-4e45-83c0-bb33a1dd39e0")
+	)
+	(wire
+		(pts
 			(xy 347.98 160.02) (xy 347.98 154.94)
 		)
 		(stroke
@@ -8109,6 +9005,16 @@
 			(type solid)
 		)
 		(uuid "f1ab2408-160d-41e3-a8da-456e9da7468b")
+	)
+	(wire
+		(pts
+			(xy 252.73 138.43) (xy 257.81 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f22f0003-fa1f-4994-bde8-9c6540eede44")
 	)
 	(wire
 		(pts
@@ -8132,13 +9038,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 195.58) (xy 38.1 195.58)
+			(xy 325.12 213.36) (xy 320.04 213.36)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "f4072f89-dc20-4624-9b88-16eb630deaa1")
+		(uuid "f6047138-308f-4bdb-ab35-cb951c8c70a6")
 	)
 	(wire
 		(pts
@@ -8210,53 +9116,455 @@
 		)
 		(uuid "ff6b3a3e-6d5d-4891-81e7-64770f17055b")
 	)
-	(global_label "MISO"
-		(shape bidirectional)
-		(at 134.62 172.72 0)
-		(fields_autoplaced yes)
+	(label "HUB_1V8"
+		(at 224.79 146.05 180)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "00d40874-4461-4571-be0e-8102d9c2e009")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.1385 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "01eca4fa-5dbc-4f06-af97-1b30bee3a90e")
 	)
-	(global_label "SCK"
-		(shape bidirectional)
-		(at 134.62 187.96 0)
-		(fields_autoplaced yes)
+	(label "USBC_CC1"
+		(at 279.4 220.98 0)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "0203c5ce-dc69-4179-8d32-24abc13a42f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.3087 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "0b9ed53b-0642-4bf5-af19-58f41e52c125")
+	)
+	(label "USBA2_DM"
+		(at 257.81 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
+		(uuid "11ef3c4c-64a5-412e-8376-d7ba0d59caae")
+	)
+	(label "USBA1_DP"
+		(at 257.81 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17abd9a1-ede2-44fd-97eb-fd37772ecafb")
+	)
+	(label "USBA2_DP"
+		(at 257.81 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17c75c56-82bc-4bc2-8b3f-7762c54b28c1")
+	)
+	(label "HUB_3V3"
+		(at 190.5 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c774edc-d657-4efb-a94d-b80ea967b63a")
+	)
+	(label "HUB_1V8"
+		(at 224.79 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b0f0dcd-58ef-43cf-9c7e-65bae603a63d")
+	)
+	(label "HUB_3V3"
+		(at 203.2 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ae2c88f-7ff5-4c99-bcef-2f097a944979")
+	)
+	(label "HUB_REXT"
+		(at 224.79 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3bb19654-dded-4812-8748-90f33dc9ff81")
+	)
+	(label "USBC_DP"
+		(at 320.04 210.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e5e3431-cf0a-4ef1-b2ec-3fe46fb181cd")
+	)
+	(label "HUB_3V3"
+		(at 257.81 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b117170-1d3a-4281-86d9-6cfd1c367e76")
+	)
+	(label "USBA1_DP"
+		(at 293.37 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ee3c939-3491-4317-a43a-671fa40e1bba")
+	)
+	(label "HUB_3V3"
+		(at 254 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6451ad63-61f2-4f1e-b687-351d27e1eb12")
+	)
+	(label "VBUS_PORTS"
+		(at 293.37 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64afebcd-febe-4051-9463-55ff4d8e8ad4")
+	)
+	(label "USBA1_DM"
+		(at 293.37 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a31d381-7d2d-4857-a5c9-fbabcb56a7cf")
+	)
+	(label "HUB_XIN"
+		(at 266.7 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dfe86e8-8e19-4b5a-a603-436d303be1d6")
+	)
+	(label "HUB_XOUT"
+		(at 224.79 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e7f7ef9-dd89-493c-a1e4-c0102c8337fb")
+	)
+	(label "USBA2_DP"
+		(at 293.37 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ff34f3b-a215-48bd-be32-ddbd7d83880f")
+	)
+	(label "HUB_1V8"
+		(at 215.9 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74bc28ca-7f8d-471e-898a-6f9439a35132")
+	)
+	(label "HUB_3V3"
+		(at 224.79 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b2881f2-b747-4543-bfca-3a28f3b4d7f0")
+	)
+	(label "HUB_REXT"
+		(at 241.3 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81c658a2-164f-4681-9996-158f6e93c958")
+	)
+	(label "USBC_CC2"
+		(at 320.04 218.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a925992-3b3b-4f42-aee6-37be2cdc4ec6")
+	)
+	(label "USB_UP_DP"
+		(at 257.81 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a9d3e30-aea1-4206-9034-046283aad387")
+	)
+	(label "USBC_DM"
+		(at 257.81 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b68aa53-57db-4079-a6cb-0ee247a07c67")
+	)
+	(label "USB_UP_DM"
+		(at 162.56 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d665df6-c169-44fa-abdb-9ef8d71f52b5")
+	)
+	(label "HUB_XIN"
+		(at 224.79 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fb3a3c9-8952-4d93-b9ba-fe01d095a5b0")
+	)
+	(label "HUB_3V3"
+		(at 224.79 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2a11ddf-cf37-47d5-b533-9245a1ff2bd3")
+	)
+	(label "USBC_CC2"
+		(at 292.1 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9665a11-ebb8-40f7-a193-fa9faf0398e8")
+	)
+	(label "HUB_RSTJ"
+		(at 224.79 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac0b45da-65c5-44fd-87fe-04dec0f0b5da")
+	)
+	(label "USBC_DM"
+		(at 320.04 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac2c8f0c-27bd-46aa-a8b5-1abf5d3ddc49")
+	)
+	(label "USBC_DP"
+		(at 257.81 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac36961f-cdd6-422b-892c-7660677c89ec")
+	)
+	(label "USB_UP_DM"
+		(at 257.81 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae7383d7-b9c5-4eda-8737-d40f257187e6")
+	)
+	(label "HUB_XOUT"
+		(at 266.7 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b47aff6f-828f-4fa0-9b95-5f779622b3d9")
+	)
+	(label "VBUS_PORTS"
+		(at 279.4 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb50084e-7bad-4d12-98b2-bf1f2da9d169")
+	)
+	(label "VBUS_PORTS"
+		(at 320.04 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cbcadd8c-5a77-404d-be41-4f431dc138a3")
+	)
+	(label "USBA2_DM"
+		(at 293.37 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1cd76b2-c673-478e-9455-ce625c020804")
+	)
+	(label "HUB_3V3"
+		(at 224.79 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7fc73d1-3a42-4ddb-bccd-faaf8efc91b2")
+	)
+	(label "USB_UP_DP"
+		(at 162.56 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc81734e-e384-4f73-82ca-4437b532f0be")
+	)
+	(label "HUB_RSTJ"
+		(at 254 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb9ed16a-52a6-470a-b125-89d8503c1079")
+	)
+	(label "HUB_3V3"
+		(at 224.79 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee01b537-d6e9-4b9a-8b9a-d965e59dbf73")
+	)
+	(label "USBC_CC1"
+		(at 320.04 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eeaf2b0e-fc9d-4d54-9ec6-509f7baff51d")
+	)
+	(label "USBA1_DM"
+		(at 257.81 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1b9538a-48fa-459d-82ef-466dbde2040f")
+	)
+	(label "VBUS_PORTS"
+		(at 292.1 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f615cfa7-b56c-41ef-9fa8-14b0177424a7")
+	)
+	(label "VBUS_PORTS"
+		(at 157.48 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7397e1e-ff04-4f18-8091-c24857c02d2a")
+	)
+	(label "VBUS_PORTS"
+		(at 293.37 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd73d3a5-464a-4c55-9247-66506d9f9584")
 	)
 	(global_label "CC2"
 		(shape bidirectional)
@@ -8330,78 +9638,6 @@
 			)
 		)
 	)
-	(global_label "D4"
-		(shape bidirectional)
-		(at 134.62 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "0f33e7b0-71d9-4b58-b205-d34b016b84b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.0641 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SWDIO"
-		(shape bidirectional)
-		(at 137.16 231.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "0f3acc7f-3292-4d69-972c-32518c32dca5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.9231 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "D25"
-		(shape bidirectional)
-		(at 38.1 195.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "1dd072ce-1f6b-4dde-8f85-5b446d067cc7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.7294 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "QSPI_DATA[3]"
 		(shape bidirectional)
 		(at 251.46 114.3 0)
@@ -8439,30 +9675,6 @@
 		(uuid "2133d9ba-4817-4a91-931d-1d637e1e0547")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 147.4057 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TX"
-		(shape bidirectional)
-		(at 134.62 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "28aa855f-6070-4e04-be44-1eb80956aaf0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.7678 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8642,78 +9854,6 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape bidirectional)
-		(at 134.62 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "37e470ac-bf6f-4276-ab56-c977eb420670")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.0716 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "A1"
-		(shape bidirectional)
-		(at 38.1 200.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "3a760d82-a9df-450b-af60-2ddb86e3ff47")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.3663 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "A3"
-		(shape bidirectional)
-		(at 38.1 205.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "3bcbe56c-cd79-4f17-be2b-d5d3de66b333")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.3663 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "QSPI_DATA[1]"
 		(shape bidirectional)
 		(at 38.1 220.98 0)
@@ -8762,30 +9902,6 @@
 			)
 		)
 	)
-	(global_label "RX"
-		(shape bidirectional)
-		(at 134.62 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "406b3c16-790a-4f6b-b694-768aeebb6505")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.0641 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "QSPI_CS"
 		(shape bidirectional)
 		(at 38.1 215.9 0)
@@ -8799,30 +9915,6 @@
 		(uuid "4103e2e8-d540-4c95-be49-1d368d2fd5a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.8189 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "D9"
-		(shape bidirectional)
-		(at 134.62 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "424a8a04-a72d-4673-98d2-62a30f23462b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.0641 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8906,30 +9998,6 @@
 			)
 		)
 	)
-	(global_label "A2"
-		(shape bidirectional)
-		(at 38.1 203.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "57da5377-f1c4-4d68-84e8-77a911db2016")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.3663 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "CC1"
 		(shape bidirectional)
 		(at 172.72 101.6 180)
@@ -9002,30 +10070,6 @@
 			)
 		)
 	)
-	(global_label "D12"
-		(shape bidirectional)
-		(at 134.62 182.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "59993079-0569-4b87-96b0-aaae5ffcef30")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2494 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "D+"
 		(shape bidirectional)
 		(at 149.86 96.52 0)
@@ -9074,30 +10118,6 @@
 			)
 		)
 	)
-	(global_label "MOSI"
-		(shape bidirectional)
-		(at 134.62 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "6e4edb16-e915-43da-9797-9e12ccd49640")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.1385 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "EN"
 		(shape bidirectional)
 		(at 55.88 60.96 0)
@@ -9111,54 +10131,6 @@
 		(uuid "71f2f871-6055-4c98-8ed8-e93282c2ea7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.3242 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "D6"
-		(shape bidirectional)
-		(at 134.62 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "7561b8f2-a640-4c5c-9236-8f44bb06cf7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.0641 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "D10"
-		(shape bidirectional)
-		(at 134.62 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "77264647-2fe9-4290-8994-053f6d37c04e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2494 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9314,54 +10286,6 @@
 			)
 		)
 	)
-	(global_label "SWCLK"
-		(shape bidirectional)
-		(at 137.16 228.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "9a78bb50-bc30-4a4a-8520-94b48e2fbde7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.2786 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "D13"
-		(shape bidirectional)
-		(at 134.62 185.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "9c038356-eaee-4149-92a8-b54db3d90ee3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2494 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "5V_EN"
 		(shape bidirectional)
 		(at 360.68 190.5 0)
@@ -9375,30 +10299,6 @@
 		(uuid "9e908f00-982b-487d-9f71-60598488db68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 360.68 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "D11"
-		(shape bidirectional)
-		(at 134.62 180.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "a3d61b31-6c42-46c1-bbe4-bf2ee043efbe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2494 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9506,30 +10406,6 @@
 			)
 		)
 	)
-	(global_label "D24"
-		(shape bidirectional)
-		(at 38.1 193.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "c9ffbc4f-9649-4324-89c9-cdf51d7a5fc1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.7294 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape bidirectional)
 		(at 175.26 93.98 270)
@@ -9554,30 +10430,6 @@
 			)
 		)
 	)
-	(global_label "D5"
-		(shape bidirectional)
-		(at 134.62 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "cc601d45-e5a2-48ec-93c1-c1f787ea5323")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.0641 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "QSPI_SCK"
 		(shape bidirectional)
 		(at 251.46 101.6 0)
@@ -9591,30 +10443,6 @@
 		(uuid "d75697a3-aca4-4e38-93f4-87bf2938f344")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 264.4235 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "A0"
-		(shape bidirectional)
-		(at 38.1 198.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "db117bde-da22-4475-a422-456566cf8414")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.3663 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9687,30 +10515,6 @@
 		(uuid "f39a69b6-2d56-452e-97b1-12db9e4cbd55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 51.0635 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 134.62 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "f3d2c705-8163-4824-8a69-a1fd6983750b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.1309 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9898,6 +10702,84 @@
 			(project "xim"
 				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
 					(reference "#U$21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
+		(at 241.3 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01350995-b02d-4f33-9ff0-9e4a9466b0a3")
+		(property "Reference" "#U$308"
+			(at 241.3 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 239.776 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7acc26c6-8a7e-49d3-82b6-4388b465f1a1")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$308")
 					(unit 1)
 				)
 			)
@@ -10789,6 +11671,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:5.0V")
+		(at 228.6 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "113862b3-9847-4470-af25-d92f2d30ab7a")
+		(property "Reference" "#U$306"
+			(at 228.6 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.0V"
+			(at 227.076 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21c3fcad-4f2d-4848-94bb-af4c995aa2cb")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
 		(at 233.68 269.24 0)
 		(unit 1)
@@ -11105,83 +12065,6 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 157.48 200.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "165c394a-9b69-47ce-9292-9af736a47ca1")
-		(property "Reference" "#FLG07"
-			(at 157.48 198.755 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 157.48 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 157.48 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a23b8351-b175-4b8e-9a57-11837d91c217")
-		)
-		(instances
-			(project "xim"
-				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
-					(reference "#FLG07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
 		(at 91.44 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -11334,6 +12217,85 @@
 			(project "xim"
 				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 215.9 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1cbca0df-e000-4fdd-b5ab-e1833cf68c89")
+		(property "Reference" "C32"
+			(at 213.61 212.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 218.2 212.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit Feather RP2040 USB Host-import-fps:0805-NO"
+			(at 215.9 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "436575ed-36bd-4fce-b0d6-c732c3db6972")
+		)
+		(pin "1"
+			(uuid "d025b6e9-5a64-489e-9b06-6a59245f128d")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -11833,7 +12795,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:USB_TYPEA_SMT")
-		(at 167.64 195.58 180)
+		(at 308.61 140.97 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11843,7 +12805,7 @@
 		(dnp no)
 		(uuid "285aed1c-8f64-4433-a8e0-5ad2548bbe6d")
 		(property "Reference" "X2"
-			(at 177.8 204.216 0)
+			(at 318.77 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11854,7 +12816,7 @@
 			)
 		)
 		(property "Value" "USB A"
-			(at 177.8 185.42 0)
+			(at 318.77 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11865,7 +12827,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit Feather RP2040 USB Host-import-fps:USB_HOST-SMT"
-			(at 167.64 195.58 0)
+			(at 308.61 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11876,7 +12838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 195.58 0)
+			(at 308.61 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11887,7 +12849,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 195.58 0)
+			(at 308.61 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12416,6 +13378,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:CAP_CERAMIC_0402NO")
+		(at 228.6 210.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d79fd22-e56c-4f71-adf1-87004506070a")
+		(property "Reference" "C33"
+			(at 230.89 212.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 226.3 212.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit Feather RP2040 USB Host-import-fps:_0402NO"
+			(at 228.6 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "301f61e1-905b-4f47-804a-9a6bc36fc909")
+		)
+		(pin "2"
+			(uuid "4f262045-ecac-4695-b4e9-60eb158aca2a")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:CAP_CERAMIC_0402NO")
+		(at 203.2 210.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "311f57a5-ba63-4245-940e-8de4b09a98d6")
+		(property "Reference" "C31"
+			(at 205.49 212.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 200.9 212.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit Feather RP2040 USB Host-import-fps:_0402NO"
+			(at 203.2 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0a11001-9816-4549-8a05-035ecd56e5ba")
+		)
+		(pin "2"
+			(uuid "8cee2367-4ca2-4b75-b6c4-a5415c6e73ef")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:+3V3")
 		(at 38.1 134.62 0)
 		(mirror y)
@@ -12890,6 +14010,164 @@
 			(project "xim"
 				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "xim:FE1.1s")
+		(at 241.3 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37de989c-c5a2-46cb-abc9-5519d400d3e9")
+		(property "Reference" "U4"
+			(at 241.3 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FE1.1s"
+			(at 241.3 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-28_3.9x9.9mm_P0.635mm"
+			(at 241.3 131.826 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0 4-port hub controller"
+			(at 241.554 134.112 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "d7126266-53c5-4234-9952-e2998fd7254c")
+		)
+		(pin "7"
+			(uuid "6f0e9374-ec75-4f21-832b-3c888241de12")
+		)
+		(pin "8"
+			(uuid "65a0de8e-3825-4db8-afc8-00b9ca8104f6")
+		)
+		(pin "9"
+			(uuid "87abeaf2-bdc2-4b1e-aa0f-6147cb1446f1")
+		)
+		(pin "4"
+			(uuid "4d35eeba-a289-4528-8989-2f04ad1baa34")
+		)
+		(pin "6"
+			(uuid "e46ecf44-bfe1-4c70-82d6-0a06019c192f")
+		)
+		(pin "10"
+			(uuid "60f6da93-6eb8-46f9-997f-5fa2f38cac05")
+		)
+		(pin "24"
+			(uuid "5fe04b86-665a-4379-accb-7292993c6cb6")
+		)
+		(pin "28"
+			(uuid "291240e0-9439-4983-97ed-546ba3357a32")
+		)
+		(pin "21"
+			(uuid "254a6b07-6587-4e73-96a2-a8a88f371bdc")
+		)
+		(pin "11"
+			(uuid "8aa3c099-37ed-4f77-92f8-eba9661f6390")
+		)
+		(pin "27"
+			(uuid "af83497e-c211-4f5d-9816-aee53e21b137")
+		)
+		(pin "14"
+			(uuid "c989b782-a029-406f-b112-8baaa6826c9c")
+		)
+		(pin "22"
+			(uuid "78958f31-4ede-4b3c-995a-cea78882b15e")
+		)
+		(pin "18"
+			(uuid "541176fa-4d23-41b9-975c-758339f4fbe6")
+		)
+		(pin "26"
+			(uuid "f82285c7-d78a-41ed-b2cc-e0502029e891")
+		)
+		(pin "13"
+			(uuid "1e53e8f3-4905-4641-affd-c54989b9ddac")
+		)
+		(pin "12"
+			(uuid "a3248128-76b1-4378-84fe-8a408182da10")
+		)
+		(pin "15"
+			(uuid "b8072a37-59b0-49f3-bbc9-e6dff8190136")
+		)
+		(pin "23"
+			(uuid "010c7048-795f-45dc-944d-48583e7e6019")
+		)
+		(pin "17"
+			(uuid "139bde7e-5f1c-42d1-9e2b-89f43e33cfd2")
+		)
+		(pin "20"
+			(uuid "2414e96b-a7d1-4a30-86a8-8f05b00188e1")
+		)
+		(pin "19"
+			(uuid "58a8b93c-2fab-4c41-b302-7b21b1e56cd0")
+		)
+		(pin "16"
+			(uuid "50c995b4-ae44-4174-b900-62214f0fa55b")
+		)
+		(pin "25"
+			(uuid "fade39e7-d645-4339-8c8f-51d44b8c2fca")
+		)
+		(pin "1"
+			(uuid "30d99c2b-3620-4087-959d-f6a2e65d4895")
+		)
+		(pin "2"
+			(uuid "02196e8a-49a7-40c7-833a-309e83ccd406")
+		)
+		(pin "3"
+			(uuid "eede124f-cdb3-4cd6-b6cf-822173276f29")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -14345,6 +15623,166 @@
 	)
 	(symbol
 		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 190.5 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a32cc47-ec42-4246-bab7-ec3ed7cd2e0f")
+		(property "Reference" "C30"
+			(at 188.21 212.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 192.8 212.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit Feather RP2040 USB Host-import-fps:0805-NO"
+			(at 190.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0fd5b195-d69b-4c0b-b17c-4ddb6e1d4c40")
+		)
+		(pin "1"
+			(uuid "301f61ec-afbf-4354-9319-7b27a7116892")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:RESISTOR_0402NO")
+		(at 292.1 213.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c803387-b6d4-4e81-8cfe-ef925748b5f2")
+		(property "Reference" "R25"
+			(at 294.64 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "56K"
+			(at 292.1 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 0.8636)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit Feather RP2040 USB Host-import-fps:_0402NO"
+			(at 292.1 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "257a835f-2910-44b7-ae58-54caba988240")
+		)
+		(pin "1"
+			(uuid "aa27bb0c-4576-4254-a84b-f115481aa664")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
 		(at 314.96 190.5 0)
 		(unit 1)
 		(body_style 1)
@@ -14579,6 +16017,84 @@
 			(project "xim"
 				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
 					(reference "#GND9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
+		(at 320.04 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61f84668-4f7c-424f-ad2f-6ff33e80942e")
+		(property "Reference" "#U$309"
+			(at 320.04 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.516 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa98d115-a5d0-4ddb-acfc-3d067e517810")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$309")
 					(unit 1)
 				)
 			)
@@ -15539,6 +17055,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:RESISTOR_0402NO")
+		(at 241.3 213.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a4f8d5c-bdfc-478c-8602-01f2ad6a299c")
+		(property "Reference" "R22"
+			(at 243.84 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "2.7K 1%"
+			(at 241.3 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 0.8636)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit Feather RP2040 USB Host-import-fps:_0402NO"
+			(at 241.3 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5ca93c7d-6c0f-4e2a-9aae-85eb60cd775b")
+		)
+		(pin "1"
+			(uuid "a859bd0e-45b5-4b96-af49-a7097ddf09d9")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:+3V3")
 		(at 93.98 40.64 0)
 		(mirror y)
@@ -15690,6 +17287,84 @@
 			(project "xim"
 				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
 					(reference "#+3V10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
+		(at 215.9 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d8bbda5-6d39-4a13-86a3-df6b30175ba3")
+		(property "Reference" "#U$305"
+			(at 215.9 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.376 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ae327d5-9862-4e37-9ac8-2fa60cfd34e4")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$305")
 					(unit 1)
 				)
 			)
@@ -16084,6 +17759,84 @@
 			(project "xim"
 				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
 					(reference "#U$7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
+		(at 224.79 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88599738-3ce4-46e0-9515-3fda96e7913a")
+		(property "Reference" "#U$302"
+			(at 224.79 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.266 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9248cdc0-e0ac-4555-8621-3f5ff593800b")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$302")
 					(unit 1)
 				)
 			)
@@ -16987,6 +18740,87 @@
 	)
 	(symbol
 		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:RESISTOR_0402NO")
+		(at 254 213.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c862502-5f16-4906-b844-e1f95b714983")
+		(property "Reference" "R23"
+			(at 256.54 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 254 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 0.8636)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit Feather RP2040 USB Host-import-fps:_0402NO"
+			(at 254 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "48431cee-3e06-4945-9d79-055b9b9ccd81")
+		)
+		(pin "1"
+			(uuid "51597764-24fb-474c-b2e3-23e08f020c86")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:RESISTOR_0402NO")
 		(at 114.3 35.56 270)
 		(unit 1)
 		(body_style 1)
@@ -17468,6 +19302,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
+		(at 190.5 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac89dbe1-4a5a-40df-9911-fd006b9026c3")
+		(property "Reference" "#U$303"
+			(at 190.5 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 188.976 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8728f5cc-6a2b-40f4-ad1f-bc87e783e2d0")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:supply1_371_GND")
 		(at 55.88 233.68 0)
 		(mirror y)
@@ -17547,6 +19459,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:USB_C")
+		(at 335.28 218.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b2c8508c-79c9-4eb4-8aaf-bdfe74e84df8")
+		(property "Reference" "X7"
+			(at 345.44 232.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "USB Type C"
+			(at 345.44 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit Feather RP2040 USB Host-import-fps:USB_C_CUSB31-CFM2AX-01-X"
+			(at 335.28 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C165948"
+			(at 335.28 236.728 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A6"
+			(uuid "12a9d325-3da8-46d5-b232-b4ffdbd87a22")
+		)
+		(pin "A7"
+			(uuid "f4b619e1-a8a9-4187-b86c-d0f348e615c0")
+		)
+		(pin "B1A12"
+			(uuid "26c86ac4-3f77-4bc6-9431-00b6b619a50d")
+		)
+		(pin "A8"
+			(uuid "6e779f65-caf7-4d11-bf34-d65f79b8d1ae")
+		)
+		(pin "A4B9"
+			(uuid "ca55feee-1d2f-4d8a-addd-1a3d6865c0ea")
+		)
+		(pin "A5"
+			(uuid "c8464cd8-48c4-45da-a6ca-a3b096f3f21c")
+		)
+		(pin "B4A9"
+			(uuid "b15c1fd6-ad41-49d2-8a25-6752eaf4b148")
+		)
+		(pin "A1B12"
+			(uuid "94257b27-b611-40d7-830b-5b9f215d598f")
+		)
+		(pin "B5"
+			(uuid "20b48148-331b-4c0c-be45-09ac5a825fbd")
+		)
+		(pin "B6"
+			(uuid "3bc3d84d-fecb-404a-9e32-e8ca8a0cffb5")
+		)
+		(pin "B8"
+			(uuid "43d7033b-14d3-4baa-8d1f-8971e3918d30")
+		)
+		(pin "B7"
+			(uuid "9d9c7349-945d-4fbb-9c64-292024eb868b")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "X7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:supply1_371_GND")
 		(at 43.18 104.14 0)
 		(mirror y)
@@ -17620,6 +19655,84 @@
 			(project "xim"
 				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
 					(reference "#GND5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
+		(at 228.6 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4b22224-bf7c-4a05-9a4d-98b4e46747b3")
+		(property "Reference" "#U$307"
+			(at 228.6 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.076 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "342055cc-8c3f-424f-a06a-f5e28c08fa96")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$307")
 					(unit 1)
 				)
 			)
@@ -18527,6 +20640,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:USB_TYPEA_SMT")
+		(at 308.61 166.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d133969a-7984-49d3-81c3-6a3532e00391")
+		(property "Reference" "X3"
+			(at 318.77 175.006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "USB A"
+			(at 318.77 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit Feather RP2040 USB Host-import-fps:USB_HOST-SMT"
+			(at 308.61 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 308.61 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "D+"
+			(uuid "84ba57cc-891e-4608-b429-649ccf70e01b")
+		)
+		(pin "D-"
+			(uuid "10707fb4-38df-4f7e-99ad-bed8f8bc2940")
+		)
+		(pin "GND"
+			(uuid "f32fe9df-f93a-42ec-ac6e-7ba884dd645e")
+		)
+		(pin "VBUS"
+			(uuid "78570bf8-f3a6-4983-be4c-27579887270d")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "X3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:CAP_CERAMIC_0402NO")
 		(at 40.64 187.96 90)
 		(unit 1)
@@ -18851,8 +21051,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
-		(at 157.48 187.96 180)
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:CRYSTAL2.5X2.0")
+		(at 266.7 210.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18860,20 +21060,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d714608e-2e79-4f15-9770-02f6c19c5fe1")
-		(property "Reference" "#U$50"
-			(at 157.48 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 159.004 185.42 0)
+		(uuid "d57aefac-140f-4978-989f-79a78272f383")
+		(property "Reference" "Y2"
+			(at 269.24 205.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18883,8 +21072,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 157.48 187.96 0)
+		(property "Value" "12MHz/20pF"
+			(at 271.78 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Adafruit Feather RP2040 USB Host-import-fps:CRYSTAL_2.5X2"
+			(at 266.7 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18895,7 +21095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 187.96 0)
+			(at 266.7 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18906,7 +21106,88 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 187.96 0)
+			(at 266.7 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e66679e9-b577-4b60-b76a-5ed6493015b9")
+		)
+		(pin "3"
+			(uuid "b2cf0da8-6f8d-4999-8f16-7354f89979d8")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
+		(at 298.45 133.35 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d714608e-2e79-4f15-9770-02f6c19c5fe1")
+		(property "Reference" "#U$50"
+			(at 298.45 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 299.974 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19236,6 +21517,162 @@
 			(project "xim"
 				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
+		(at 203.2 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db47ad23-ef5b-4ffb-b6e9-edd2539f8861")
+		(property "Reference" "#U$304"
+			(at 203.2 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.676 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1520109-5c77-4d78-9b6c-d77764144d98")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:GND")
+		(at 298.45 158.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc596996-f56f-4bdc-b1a6-2f800dc60523")
+		(property "Reference" "#U$399"
+			(at 298.45 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 299.974 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6dd0ee9-a77f-44c4-af58-38ac1d881066")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$399")
 					(unit 1)
 				)
 			)
@@ -19645,6 +22082,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:5.0V")
+		(at 224.79 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e0d9b5fa-09df-4cd0-845e-010ed2aa5093")
+		(property "Reference" "#U$301"
+			(at 224.79 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.0V"
+			(at 223.266 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c43284bf-4789-47bf-80f5-f0a962b48d4a")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#U$301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:CAP_CERAMIC_0402NO")
 		(at 68.58 99.06 0)
 		(unit 1)
@@ -19718,6 +22233,87 @@
 			(project "xim"
 				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit Feather RP2040 USB Host-eagle-import:RESISTOR_0402NO")
+		(at 279.4 213.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4ec79bf-d3b1-4bcb-b271-85621694b5d2")
+		(property "Reference" "R24"
+			(at 281.94 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "56K"
+			(at 279.4 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 0.8636)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit Feather RP2040 USB Host-import-fps:_0402NO"
+			(at 279.4 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9c845c05-c08e-4d17-85af-a5f1f561e542")
+		)
+		(pin "1"
+			(uuid "51e26067-30bc-42ef-9f33-30db9eb4df7d")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -20031,6 +22627,83 @@
 			(project "xim"
 				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 298.45 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec0ce107-024f-4833-ba2a-186b39fa49be")
+		(property "Reference" "#FLG07"
+			(at 298.45 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 298.45 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 298.45 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 298.45 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09fe05df-8a30-4260-87b3-754a753575c1")
+		)
+		(instances
+			(project "xim"
+				(path "/0a97679a-4c2d-4ef1-8033-b652168d084c"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -20662,6 +23335,98 @@
 				)
 			)
 		)
+	)
+	(no_connect
+		(at 132.08 172.72)
+		(uuid "4b9041a9-f7fe-489a-8844-684b2a4ca56e")
+	)
+	(no_connect
+		(at 132.08 187.96)
+		(uuid "41dc5ac8-49af-47a5-9d96-9b2621f128da")
+	)
+	(no_connect
+		(at 132.08 160.02)
+		(uuid "8d52d212-aef3-4690-8799-1920a5cb87d7")
+	)
+	(no_connect
+		(at 132.08 231.14)
+		(uuid "f3a5a55c-7ac3-4f1c-a587-3fd6e297e7dc")
+	)
+	(no_connect
+		(at 55.88 195.58)
+		(uuid "f8e0634f-fe6d-474c-a3e8-c29cd9de35b1")
+	)
+	(no_connect
+		(at 132.08 149.86)
+		(uuid "004cb6e1-531a-44cf-84f9-98649cbfba2e")
+	)
+	(no_connect
+		(at 132.08 157.48)
+		(uuid "3c3fad5d-6c2d-4977-8d99-256f711fe8aa")
+	)
+	(no_connect
+		(at 55.88 200.66)
+		(uuid "47e50f08-1f86-4d5d-bda2-69a8b845ca50")
+	)
+	(no_connect
+		(at 55.88 205.74)
+		(uuid "6f8b75d2-8f73-40c2-b860-37f26a119d9b")
+	)
+	(no_connect
+		(at 132.08 152.4)
+		(uuid "6929d89e-3010-4d1c-962e-efb2c7b734a9")
+	)
+	(no_connect
+		(at 132.08 175.26)
+		(uuid "7cd231f0-c086-4041-a458-a207da2cf122")
+	)
+	(no_connect
+		(at 55.88 203.2)
+		(uuid "b84f1a6f-450a-49f4-8a81-b1ef120ee6e0")
+	)
+	(no_connect
+		(at 132.08 182.88)
+		(uuid "e52f525e-a533-44cf-a479-82bf2f93ac2d")
+	)
+	(no_connect
+		(at 132.08 190.5)
+		(uuid "08bb5f4b-b1e6-4f96-8093-9ee2a328ee47")
+	)
+	(no_connect
+		(at 132.08 165.1)
+		(uuid "fc5ef47d-a73c-49fb-a9c0-de0c15932d6c")
+	)
+	(no_connect
+		(at 132.08 177.8)
+		(uuid "edaedeba-b0cf-481d-b90e-b55f433c7264")
+	)
+	(no_connect
+		(at 132.08 228.6)
+		(uuid "ff731a36-6f01-432b-9f49-4afa43a0d3c5")
+	)
+	(no_connect
+		(at 132.08 185.42)
+		(uuid "ae9e2980-e0e6-4c94-aec6-9ce357422969")
+	)
+	(no_connect
+		(at 132.08 180.34)
+		(uuid "b6a98dca-3029-4730-a55b-afbce86e6f8b")
+	)
+	(no_connect
+		(at 55.88 193.04)
+		(uuid "494007ad-244d-4aa6-ac15-513560c48d2e")
+	)
+	(no_connect
+		(at 132.08 162.56)
+		(uuid "3686b4d0-9b92-408c-8015-f7fd277e125f")
+	)
+	(no_connect
+		(at 55.88 198.12)
+		(uuid "5df9e2fc-3cd6-46a2-8692-bff6ff07177c")
+	)
+	(no_connect
+		(at 132.08 154.94)
+		(uuid "d236d57a-ccce-4aee-8bd4-4b0e89d40cfa")
 	)
 	(sheet_instances
 		(path "/"
